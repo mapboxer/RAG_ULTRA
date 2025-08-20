@@ -61,7 +61,7 @@ graph LR
 ```bash
 # Клонирование репозитория
 git clone <repository_url>
-cd RAG_ULTRA_v0.1-coursor
+cd RAG_ULTRA_v0.1
 
 # Создание conda окружения
 conda env create -f environment.yml
