@@ -1,0 +1,3 @@
+conda env create -f environment.yml
+conda activate corp-rag
+python -c "import torch, faiss, numpy as np; print('OK', torch.__version__)"

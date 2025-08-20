@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Models (большие файлы)
+doc_ingest/models/sbert_large_nlu_ru/
+doc_ingest/models/reranker_ru/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Outputs and generated files
+doc_ingest/outputs/
+outputs/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Conda
+conda-meta/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.*.swp
+.*.swo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector indices
+*.index
+*.faiss
+
+# Large data files
+*.csv
+*.jsonl
+*.json
+!config.json
+!tokenizer_config.json
+!modules.json
+
+# Media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Documents (если не хотите коммитить документы)
+# doc_ingest/doc/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/

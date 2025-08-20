@@ -1,0 +1,46 @@
+# Core dependencies
+numpy==1.26.*
+pandas==2.2.*
+networkx==3.3
+torch>=2.3.0
+faiss-cpu>=1.8.0  # или faiss-gpu для GPU версии
+
+# Document processing
+pypdf==4.*
+pymupdf>=1.24
+python-docx>=1.0
+openpyxl>=3.1
+python-pptx>=0.6
+python-magic>=0.4
+pytesseract>=0.3
+
+# NLP and ML
+sentence-transformers>=2.7,<3
+huggingface_hub>=0.23
+transformers>=4.30
+
+# LangChain ecosystem
+langchain>=0.2.11,<0.3
+langchain-community>=0.2.11,<0.3
+langchain-text-splitters>=0.2.2,<0.3
+langchain-openai>=0.1.21,<0.2
+langchainhub>=0.1.15,<0.2
+langchain-unstructured>=0.1
+unstructured>=0.14
+
+# LlamaParse (optional, for advanced PDF parsing)
+llama-cloud>=0.1.37
+llama-parse>=0.1.6
+
+# API and utilities
+fastapi>=0.100
+uvicorn>=0.23
+python-dotenv>=1.0
+tqdm>=4.66
+pyarrow>=16.0
+
+# Russian LLM support (optional)
+gigachat>=0.1.42
+
+# Vector databases (optional)
+qdrant-client>=1.7
